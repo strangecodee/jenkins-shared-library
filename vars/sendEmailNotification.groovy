@@ -14,7 +14,7 @@ def call(String buildStatus) {
         ${env.BUILD_URL}
         """,
 
-        to: 'team@example.com'
+        to: 'anuragmaurya883@gmail.com'
     )
 
     echo "Email notification sent"
