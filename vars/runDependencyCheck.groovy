@@ -7,7 +7,7 @@ def call() {
             --scan .
             --format HTML
         ''',
-        odcInstallation: 'OWASP-Dependency-Check'
+        odcInstallation: 'OWASP-DC'
     )
 
     dependencyCheckPublisher(
