@@ -1,4 +1,4 @@
-def call(String repoUrl, String branch = 'master') {
+def call(String repoUrl, String branch = 'main') {
 
     checkout scmGit(
         branches: [[name: "*/${branch}"]],
